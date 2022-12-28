@@ -199,7 +199,7 @@ SOTA models that chosen to train/test (Also as Acknowledgements):
 ![Cflow-AD](./imgs/cflow/013.png "Cflow-AD (wide_resnet50_2)")
 - CFA (wrn50_2)
 
-<img src="./imgs/cfa/metal_20.png" alt="CFA" title="CFA (wrn50_2)" align=center style="zoom:50%">
+<img src="./imgs/cfa/metal_20.png" alt="CFA" title="CFA (wrn50_2)" height="50%" width="50%" />
 
 
 ## 6. Change Log
