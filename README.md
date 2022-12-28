@@ -119,12 +119,12 @@ SOTA models that chosen to train/test (Also as Acknowledgements):
 
 <table>
     <tr>
-        <td>Version</td> 
-        <td>Methods</td> 
-        <td>Backbone</td> 
-        <td>Avg DET AUC (image ROCAUC)</td> 
-        <td>Avg SEG AUC (pixel ROCAUC)</td> 
-        <td>pixel PROAUC</td> 
+        <td><b>Version</b></td> 
+        <td><b>Methods</b></td> 
+        <td><b>Backbone</b></td> 
+        <td><b>Avg DET AUC (image ROCAUC)</b></td> 
+        <td><b>Avg SEG AUC (pixel ROCAUC)</b></td> 
+        <td><b>pixel PROAUC</b></td> 
     </tr>
     <tr>
         <td rowspan="3">Official Code</td>    
@@ -137,7 +137,7 @@ SOTA models that chosen to train/test (Also as Acknowledgements):
     <tr>
         <td >FastFlow</td> 
         <td >cait_m48_448</td> 
-        <td >0.955</td> 
+        <td ><b>0.955</b></td> 
         <td >0.960</td> 
         <td >/</td> 
     </tr>
@@ -174,7 +174,7 @@ SOTA models that chosen to train/test (Also as Acknowledgements):
     <tr>
         <td >cait_m48_448</td> 
         <td >0.914</td> 
-        <td >0.963</td> 
+        <td ><b>0.963</b></td> 
         <td >/</td> 
     </tr>
     <tr>
@@ -185,22 +185,21 @@ SOTA models that chosen to train/test (Also as Acknowledgements):
         <td >/</td> 
     </tr>
 </table>
-<style>
-	table {
-   	 margin: auto;
-	}
-</style>
 
 ## 5. Sample Visualizations
 
 - PatchCore (wide_resnet50_2)
+
 ![PatchCore](./imgs/patchcore/013.png "PatchCore (wide_resnet50_2)")
 - FastFlow (cait_m48_448)
+
 ![FastFlow](./imgs/fastflow/013.png "FastFlow (cait_m48_448)")
 - Cflow-AD (wide_resnet50_2)
+
 ![Cflow-AD](./imgs/cflow/013.png "Cflow-AD (wide_resnet50_2)")
 - CFA (wrn50_2)
-![CFA](./imgs/cfa/metal_20.png "CFA (wrn50_2)")
+
+![CFA](./imgs/cfa/metal_20.png "CFA (wrn50_2)"){:height="50%" width="50%"}
 
 
 ## 6. Change Log
