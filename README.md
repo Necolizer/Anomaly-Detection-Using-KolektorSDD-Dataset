@@ -12,10 +12,10 @@
 
 ## 1. Purpose
 
-### CN
+### zh
 这是本仓库作者在实习期间完成的代码，主要内容是拿KolektorSDD数据集去跑部分SOTA工业缺陷检测模型（主要取自[MVTecAD的排行榜](https://paperswithcode.com/sota/anomaly-detection-on-mvtec-ad)）。由于各种限制，这里只公布了KolektorSDD的预处理代码和复现出的结果。通过KolektorSDD的预处理代码，可以快速将KolektorSDD数据集的格式转换为MVTecAD数据集的格式，这样就可以直接套用SOTA开源代码或者[Anomalib库](https://github.com/openvinotoolkit/anomalib)，快速的进行训练和测试。完整复现应该不困难。
 
-### EN
+### en
 This repository contains code for preprocessing KolektorSDD dataset so that we could train/test some SOTA anomaly detection models in [MVTecAD leaderboard](https://paperswithcode.com/sota/anomaly-detection-on-mvtec-ad). Due to various restrictions, I do NOT upload the modified training/testing code for those SOTA models. But I believe with the KolektorSDD dataset after preprocessing, you could reproduce the results in a very short time, just with slight modifications to SOTA codes/[Anomalib](https://github.com/openvinotoolkit/anomalib) using **MVTecAD configurations**. I also report the results I reproduce for comparisons.
 
 
@@ -68,7 +68,7 @@ save_base
 
 ## 3. Illustrations of KolektorSDD Preprocessing
 
-### CN
+### zh
 总体思路：处理成接近MVTecAD数据集的样式
 
 步骤：
@@ -83,7 +83,7 @@ save_base
 > - 本仓库作者采取的划分方式是直接划分训练和测试，没有留验证集。同时，在代码中已经规定了测试时的正常和异常样本数量相等。如果需要。可以自行修改代码，取合理的划分。
 > - 因为random.shuffle没有固定种子，每次运行会得到具体样本不同的划分结果。
 
-### EN
+### en
 
 To take use of SOTA codes / [Anomalib](https://github.com/openvinotoolkit/anomalib) using **MVTecAD configurations**, we should reorganize KolektorSDD dataset in MVTecAD dataset's format.
 
