@@ -24,8 +24,12 @@ This repository contains code for preprocessing KolektorSDD dataset so that we c
 1. Download KolektorSDD Dataset with fine annotations in https://www.vicos.si/resources/kolektorsdd/
     - Please cite according to their requirements
 2. Unzip the KolektorSDD file
-3. git clone this repo
-4. Modify the path in `KolektorSDD_Preprocess.py`
+3. Git clone this repo
+4. Create a new conda virtual environment with `anomalib_env.yaml`
+```
+conda env create -f anomalib_env.yaml
+```
+5. Modify the path in `KolektorSDD_Preprocess.py`
 ```
 # Args that you need to change: 
 # @ read_base : Path to the downloaded KolektorSDD dataset
@@ -33,11 +37,11 @@ This repository contains code for preprocessing KolektorSDD dataset so that we c
 read_base = r'.\KolektorSDD'
 save_base = r'.\KolektorSDD1'
 ```
-5. Run the script
+6. Run the script
 ```
 python KolektorSDD_Preprocess.py
 ```
-6. Your final directory tree of reorganized KolektorSDD should look like this:
+7. Your final directory tree of reorganized KolektorSDD should look like this:
 
 ```
 save_base
@@ -62,7 +66,7 @@ save_base
              ├── 001.png
              ├── ...
 ```
-7. Modify the code configurations and run your training and testing scripts
+8. Modify the code configurations and run your training and testing scripts
     - See **Section 4** to get the open source code for SOTA models in my experiment
     - With the KolektorSDD dataset after preprocessing, you could reproduce the results in a very short time, just with slight modifications to SOTA codes/[Anomalib](https://github.com/openvinotoolkit/anomalib) using **MVTecAD configurations**.
 
@@ -206,6 +210,7 @@ SOTA models that chosen to train/test (Also as Acknowledgements):
 
 ## 6. Change Log
 
+- [2022/12/29] Provide conda virtual environment dependency list in `anomalib_env.yaml`.
 - [2022/12/28] Create repository and release preprocessing script. 
 
 ## 7. License
