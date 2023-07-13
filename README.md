@@ -139,11 +139,11 @@ SOTA models that chosen to train/test (Also as Acknowledgements):
         <td >/</td> 
     </tr>
     <tr>
-        <td >FastFlow</td> 
-        <td >cait_m48_448</td> 
-        <td ><b>0.955</b></td> 
-        <td >0.960</td> 
-        <td >/</td> 
+        <td >CFA</td> 
+        <td >wrn50_2</td> 
+        <td >0.939</td> 
+        <td >0.939</td> 
+        <td >0.823</td> 
     </tr>
     <tr>
         <td >Cflow-AD</td> 
@@ -154,11 +154,11 @@ SOTA models that chosen to train/test (Also as Acknowledgements):
     </tr>
     <tr>
         <td >Unofficial Code</td> 
-        <td >CFA</td> 
-        <td >wrn50_2</td> 
-        <td >0.939</td> 
-        <td >0.939</td> 
-        <td >0.823</td> 
+        <td >FastFlow</td> 
+        <td >cait_m48_448</td> 
+        <td ><b>0.955</b></td> 
+        <td >0.960</td> 
+        <td >/</td> 
     </tr>
     <tr>
         <td rowspan="4">Anomalib</td> 
